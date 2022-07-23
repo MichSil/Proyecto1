@@ -1,0 +1,43 @@
+body{
+    /*viewport height*/
+    width: 98vw;
+    /*view width*/
+    height: 100vh;
+    margin: 0%;
+}
+ul{
+    height: 90vh;
+    list-style: none;
+    display: flex;
+    /*flex direction me permite poner el eje principal*/
+    /*mi eje principal es row = horizontal*/
+    /*mi eje columna = vertical*/
+    flex-direction: column;
+    /*justify content utiliza el eje principal*/
+    justify-content: baseline;
+    /*align content es el eje opuesto; es decir, en este caso es horizontal*/
+    align-items: center;
+    flex-wrap: wrap;
+    /*para que align-content funcione debo usar flex-wrap-wrap*/
+    align-content: center;
+}
+
+li{
+    margin: 15px;
+    background-color: aqua;
+    width: ;
+}
+
+.e{
+    order: -1;
+    /*esta propiedad es para los hijos*/
+}
+
+.b{
+    order: 1;
+}
+
+.a{
+    order: 4;
+    align-self: flex-end;
+}

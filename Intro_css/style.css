@@ -1,0 +1,12 @@
+/* selector por etiqueta */
+h1 {
+    color: blueviolet;
+}
+/* selector por clase */
+.miclase {
+    color: brown;
+}
+/* selector por id */
+#id {
+    color: aqua;
+}
