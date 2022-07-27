@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+div .blue, .pink, .blueviolet{
+    width: 30vw;
+    height: 95vh;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.blueviolet{
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    body{
+         flex-wrap: wrap;
+    }
+    
+    .pink{
+        order: -1;
+        width: 90vw;
+        height: 50vh;
+    }
+}
+
+     .blue, .blueviolet{
+        width: 45vw;
+        height: 45vh;
+     }
+
+     .blueviolet{
+        order: 1;
+     }

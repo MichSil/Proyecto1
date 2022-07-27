@@ -20,15 +20,11 @@ h2{
     width: 350px;
     height: 400px;
     display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    flex-wrap: wrap;
-    align-items: baseline;
+    justify-content: center;
+
 }
 
 
 .columna{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;   
+   
 }

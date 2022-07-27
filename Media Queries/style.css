@@ -1,0 +1,18 @@
+div{
+    height: 20vh;
+    background-color: blueviolet;
+}
+
+/*este codigo se ejecutara cuando mi pantalla sea menor o igual a 1500px*/
+@media screen and (max-width:1000px) {
+    div{
+        background-color: blue;
+    }
+}
+
+/* se ejecutara cuandio mi pantalla sea menor o igual 800px o mas*/
+@media screen and (max-width: 400px) {
+    div{
+        background-color: yellow;
+    }
+}

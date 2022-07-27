@@ -1,0 +1,58 @@
+.flex{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .azul {
+      background-color: #002868;
+  }
+  
+  .rojo {
+      background-color: #EF2B2D;
+  }
+  
+  .blanco {
+      background-color: #ffffff;
+  
+  }
+  
+  .pr {
+      padding-right: 2vw;
+  }
+  
+  .pb {
+      padding-bottom: 2vw;
+  }
+  
+  .pl {
+      padding-left: 2vw;
+  }
+  
+  .pt {
+      padding-top: 2vw;
+  }
+  
+  .mr {
+      margin-right: 4.01vw;
+  }
+  
+  .mb {
+      margin-bottom: 4.01vw;
+  }
+  
+  .pequeño {
+      width: 15.89vw;
+      height: 15.89vw;
+  }
+  
+  .grande {
+      width: 31.78vw;
+      height: 15.89vw;
+  }
+
+
+
+
+

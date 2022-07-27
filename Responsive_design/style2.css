@@ -1,0 +1,19 @@
+/* porcentaje siempre esta ligado a una referencia*/
+/*viewport */
+.padre{
+    width: 90vw;
+    height: 90vh;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 20%;
+    background-color: aquamarine;
+}
+
+.hija{
+    width: 40%;
+    height: 70%;
+    background-color: rosybrown;
+}
